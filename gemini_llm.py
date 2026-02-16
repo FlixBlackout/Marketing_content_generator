@@ -18,6 +18,7 @@ def generate_marketing_image(prompt, output_file="marketing_image.png"):
             "output_mime_type": "image/png"
         }
     )
+    return response[0] 
 
     image_bytes = response.generated_images[0].image.image_bytes
 
