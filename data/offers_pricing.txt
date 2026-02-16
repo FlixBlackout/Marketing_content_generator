@@ -1,0 +1,12 @@
+Price Range:
+- T-Shirts: ₹699 – ₹1499
+- Dresses: ₹1299 – ₹2999
+- Jeans: ₹1499 – ₹3499
+- Sneakers: ₹1999 – ₹4999
+- Formal Shoes: ₹2999 – ₹6999
+
+Offers:
+- Buy 2 Get 1 Free (Seasonal)
+- 10% Student Discount
+- Free Shipping above ₹1999
+- Festive Combo Deals

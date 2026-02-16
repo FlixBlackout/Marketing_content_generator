@@ -1,0 +1,32 @@
+Category: Footwear
+
+Men's Shoes:
+- Casual Sneakers
+- Formal Leather Shoes
+- Loafers
+- Running Shoes
+
+Women's Shoes:
+- Heels
+- Flats
+- Sneakers
+- Boots
+
+Popular Products:
+1. UrbanFlex White Sneakers
+   - Unisex design
+   - Cushioned sole
+   - Lightweight
+
+2. Classic Leather Derby
+   - Premium leather
+   - Formal & business wear
+
+3. Elegant Block Heels
+   - Comfortable heel height
+   - Party & office wear
+
+USP:
+- Comfort-first design
+- Durable sole
+- Trend-aligned aesthetics
