@@ -27,3 +27,4 @@ if __name__ == "__main__":
 
     # Step 3: Generate Image
     generate_marketing_image(final_prompt)
+
