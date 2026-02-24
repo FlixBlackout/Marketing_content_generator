@@ -15,7 +15,9 @@ if not REPLICATE_API_TOKEN:
 
 client = Client(api_token=REPLICATE_API_TOKEN)
 
-OUTPUT_FOLDER = "generated_images"
+# Get the directory where this file is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_FOLDER = os.path.join(BASE_DIR, "generated_images")
 
 
 def get_next_filename():

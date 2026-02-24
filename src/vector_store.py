@@ -4,8 +4,10 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 import streamlit as st
 
-DATA_FOLDER = "data"
-INDEX_FOLDER = "vector_index"
+# Get the directory where this file is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_FOLDER = os.path.join(BASE_DIR, "data")
+INDEX_FOLDER = os.path.join(BASE_DIR, "vector_index")
 
 # Cache the model to avoid reloading on every interaction
 @st.cache_resource
