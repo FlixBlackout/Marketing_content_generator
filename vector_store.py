@@ -2,11 +2,17 @@ import os
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+import streamlit as st
 
 DATA_FOLDER = "data"
 INDEX_FOLDER = "vector_index"
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# Cache the model to avoid reloading on every interaction
+@st.cache_resource
+def get_model():
+    return SentenceTransformer("all-MiniLM-L6-v2")
+
+model = get_model()
 
 
 def load_all_text_files():

@@ -1,8 +1,7 @@
-google-generativeai
-faiss-cpu
-sentence-transformers
-numpy
-python-dotenv
-streamlit
-replicate
-
+streamlit>=1.28.0
+replicate>=0.22.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0

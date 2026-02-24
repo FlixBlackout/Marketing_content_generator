@@ -1,13 +1,19 @@
 import os
-from dotenv import load_dotenv
+import streamlit as st
 from replicate import Client
 import requests
 from PIL import Image
 from io import BytesIO
 
-load_dotenv()
+# Get API token from environment (local) or Streamlit secrets (cloud)
+REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
+if not REPLICATE_API_TOKEN:
+    try:
+        REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
+    except Exception:
+        REPLICATE_API_TOKEN = None
 
-client = Client(api_token=os.getenv("REPLICATE_API_TOKEN"))
+client = Client(api_token=REPLICATE_API_TOKEN)
 
 OUTPUT_FOLDER = "generated_images"
 
