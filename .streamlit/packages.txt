@@ -1,2 +1,0 @@
-libfaiss-dev
-libomp-dev
