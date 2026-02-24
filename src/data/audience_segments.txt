@@ -1,0 +1,20 @@
+Segment 1: College Students
+Age: 18-24
+Preferences:
+- Trendy & Instagram-friendly
+- Affordable
+- Streetwear style
+
+Segment 2: Working Professionals
+Age: 23-35
+Preferences:
+- Smart casual
+- Office-ready outfits
+- Premium yet affordable
+
+Segment 3: Fashion Enthusiasts
+Age: 20-40
+Preferences:
+- Latest trends
+- Seasonal collections
+- Statement pieces
